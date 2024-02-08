@@ -7,7 +7,8 @@
    6. Usage
    7. Code Structure
    8. Functionality
-   9. Contributing
+   9. Where You Can Find it
+   10. Contributing
 
 ## 1. Introduction:
 The introduction provides a brief overview of the project documentation and its 
@@ -69,8 +70,8 @@ project:
   • Add to Cart: Clicking the "Add to Cart" button triggers a message with 
     selected color, size, and quantity.
     
-## 10. Where You Can Find it:
-   1. Github Link  -
+## 9. Where You Can Find it:
+   1. Github Link  - https://github.com/Pushpendra9045/Intern-assignement
    2. Live Link - https://intern-assignement.vercel.app/
     
 ## 10. Conclusion:
