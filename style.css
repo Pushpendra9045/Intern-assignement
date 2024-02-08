@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(to right bottom, #873572, black);
+}
+
+/* Grid layout for larger screens */
+.shoping-cart-container {
+  display: flex;
+  margin: 50px auto;
+  
+  width: 90%;
+  padding: 30px;
+  /* border: 2px solid red; */
+  background: white;
+
+}
+
+
+
+/* Common styles for inner containers */
+.inner-container {
+  /* border: 2px solid blue; */
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+ 
+}
+
+#section-1{
+  display: flex;
+  flex-direction:column;
+  /* gap: 1px; */
+}
+
+.thumbanail-container{
+  
+  max-height: 600px;
+  width: 90%;
+  margin: 10px auto;
+}
+
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.more-thumbainl-container{
+ /* border: 2px red solid; */
+  width: 80%;
+  margin: 10px auto;
+  height: 112px;
+  display: flex;
+  gap: 10px;
+}
+
+.more-image-container{
+  border: 2px solid #EDF0F8;
+  height: 100%;
+  width: 25%;
+  margin: auto;
+}
+
+.more{
+  object-fit: cover;
+  cursor: pointer;
+}
+
+
+/* Part 2 */
+
+
+.title-container{
+ 
+  margin-top:10px;
+}
+.vendor{
+  font-size: 16px;
+  font-weight: 400;
+  color: #B9BBBF;
+}
+.title{
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 12px;
+}
+
+hr{
+  margin-top: 12px;
+    border: 1px solid #E4E4E4;
+}
+.price-container{
+  
+  margin-top: 20px;
+}
+.price{
+  font-size: 34px;
+  font-weight: 700;
+  color: #3A4980;
+}
+.offer{
+  color: #FF000080;
+}
+.offer,.compare_at_price{
+  font-size: 21px;
+  font-weight: 400;
+}
+.compare_at_price{
+  margin-top: 10px;
+  color: #00000080;
+}
+
+.color-container{
+ 
+  margin-top: 15px;
+}
+
+.choose-color{
+  color: #B9BBBF;
+}
+
+input[type="radio"]{
+  height: 60px;
+  width: 60px;
+  margin-top: 12px;
+}
+
+
+.select-color-container input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 50px !important;
+  width: 50px !important;
+   
+  width: 20px; /* You can adjust width and height as needed */
+  height: 20px;
+  border-radius: 0; /* Ensure square shape */
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  margin: 0 5px; /* Adjust spacing as needed */
+}
+
+.select-color-container input[type="radio"]:checked::before {
+  content: "\2713"; /* Checkmark symbol */
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px; /* Adjust size of checkmark as needed */
+  color: white;
+}
+
+.select-color-container{
+  margin-top: 12px;
+}
+
+.brown{
+  background: #ECDECC;
+}
+.blue{
+  background: #BBC1F8;
+}
+.green{
+  background: #BBD278;
+}
+.pink{
+  background: #FFD3F8;
+  
+}
+
+
+.options-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.option{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  border: 2px solid #EDF0F8;
+  padding-right: 5px;
+  border-radius: 8px;
+  background: #EDF0F8;
+  padding-left: 5px;
+  
+}
+.size-input{
+  height: 20px !important;
+  width: 20px !important;
+  margin-bottom: 10px !important;
+}
+label{
+  
+  margin-top: 13px;
+}
+
+.size-and-button-container{
+ 
+  margin-top: 15px;
+}
+
+.button-container{
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.quantity-button{
+  display: flex;
+  gap: 10px;
+  border: 2px solid #f3f3f3;
+  background: #F3F3F3;
+  border-radius: 30px;
+  padding: 4px;
+}
+.Dcrease-quantity,.increase-quantity{
+  width: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  border-style: none;
+  color: #3A4980;
+  border-radius: 30px;
+}
+.Quantity{
+  font-size: 30px;
+  margin-top: 5px;
+  color: #3A4980;
+}
+.add-to-cart-button{
+  /* width: 200px; */
+  padding: 10px;
+  font-size: 16px !important;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-style: none;
+  background: #3A4980;
+  color: white;
+  
+}
+
+.purchase-message-container{
+ display: none;
+  margin-top: 25px;
+  padding: 10px;
+  background: #E7F8B7;
+  border: 2px solid #E7F8B7;
+  border-radius: 8px;
+}
+
+.purchase-messaage{
+  font-size: 14px;
+    font-weight: 600;
+}
+
+.description-container{
+  margin-top: 20px;
+}
+
+.description{
+  font-size: 20px;
+  font-weight: 300;
+  color: #A3A3A3;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 767px) {
+  .shoping-cart-container {
+      flex-direction: column;/* Show one inner container per row on mobile */
+      width: 100%;
+      padding: 0;
+      margin: auto;
+     
+  }
+  .thumbanail-container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .thumbanail-container img{
+   /* width: 300px; */
+   object-fit: contain;
+   max-height: 350px;
+  }
+
+  .more-thumbainl-container{
+    width: 100%;
+    margin: 2px auto;
+    height: 85px;
+    display: flex;
+    gap: 3px;
+  }
+   
+}
+
+
+
+
+@media screen and (min-width: 400px) and (max-width: 785px) {
+  .thumbanail-container{
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .thumbanail-container img{
+    
+    object-fit: fill;
+   }
+}
+
