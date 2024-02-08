@@ -69,7 +69,11 @@ project:
   • Add to Cart: Clicking the "Add to Cart" button triggers a message with 
     selected color, size, and quantity.
     
-## 9. Conclusion:
+## 10. Where You Can Find it:
+   1. Github Link  -
+   2. Live Link - https://intern-assignement.vercel.app/
+    
+## 10. Conclusion:
 In conclusion, the Embrace Sideboard product page project showcases a 
 seamless integration of front-end technologies to create a user-friendly and 
 interactive shopping experience. Through the utilization of HTML, CSS, and 
